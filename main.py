@@ -14,7 +14,7 @@ time.sleep(0.7)
 WebDriverWait(driver, 60).until(ec.presence_of_element_located((By.ID, ":r1:"))).send_keys("Mhmd@123")
 time.sleep(0.7)
 WebDriverWait(driver, 60).until(ec.presence_of_element_located((By.ID, ":r2:"))).click()
-input("[!} Enter reCAPTCHA and Press ENTER\n")
+input("[!] Enter reCAPTCHA and Press ENTER\n")
 
 
 driver.close()
